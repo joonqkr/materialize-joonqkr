@@ -1,2 +1,2 @@
 # materialize-joonqkr
-Personal website made with a great basis
+Personal website made with a great basis on MaterializeCSS components.
