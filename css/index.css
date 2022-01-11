@@ -39,15 +39,15 @@ header, body, footer {
 
 /* Title section */
 .title-section {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../images/sailor_moon_bg.jpeg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../images/sailor_moon_bg.jpeg");
 
-  height: 150px;
+    height: 150px;
 
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .title-text {
@@ -56,7 +56,19 @@ header, body, footer {
     top: 50%;
     left: 5%;
     transform: translate(0%, -50%);
-    color: black;
     font-size: 45px;
     font-weight: 700;
-  }
+}
+
+/* Content section */
+.content-section {
+    position: relative;
+    width: 95%;
+}
+.content-text {
+    position: absolute;
+    left: 5%;
+    transform: translate(0%, 50px);
+    font-size: 17px;
+    font-weight: 400;
+}
