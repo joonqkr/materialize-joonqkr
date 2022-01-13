@@ -63,11 +63,22 @@ header, body, footer {
     transform: translate(0%, 40px);
 }
 
-/* Job card typography */
+/* Job card */
+/* Typography */
 .job-title {
     font-size: 18px;
 }
 
 .job-period {
     font-weight: 700;
+}
+
+/* Card format */
+.card img {
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-content {
+    height: 100%;
 }
