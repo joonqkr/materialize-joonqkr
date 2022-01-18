@@ -82,3 +82,13 @@ header, body, footer {
 .card-content {
     height: 100%;
 }
+
+/* Job modal */
+.modal-title {
+    top: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
