@@ -5756,7 +5756,7 @@ body.keyboard-focused .dropdown-content li:focus {
   background-color: #fafafa;
   padding: 0;
   max-height: 70%;
-  width: 55%;
+  width: 80%;
   margin: auto;
   overflow-y: auto;
   border-radius: 2px;
@@ -7570,7 +7570,7 @@ input[type=range]::-ms-thumb {
 }
 
 .sidenav li.active {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .sidenav li > a {
@@ -7584,7 +7584,7 @@ input[type=range]::-ms-thumb {
 }
 
 .sidenav li > a:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .sidenav li > a.btn, .sidenav li > a.btn-large, .sidenav li > a.btn-small, .sidenav li > a.btn-large, .sidenav li > a.btn-flat, .sidenav li > a.btn-floating {

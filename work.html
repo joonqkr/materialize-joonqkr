@@ -10,7 +10,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
       
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
       <!-- Import index.css -->
       <link type="text/css" rel="stylesheet" href="css/index.css"/>
 
@@ -37,7 +37,9 @@
             <div class="card-image">
               <img src="images/amazon.jpeg">
               <span class="card-title">Amazon</span>
-              <a class="btn-floating halfway-fab waves-effect waves-light white"><i class="material-icons black-text">more_horiz</i></a>
+              <a class="btn-floating halfway-fab waves-effect waves-light white modal-trigger" href="#amazon">
+                <i class="material-icons black-text">more_horiz</i>
+              </a>
             </div>
             <div class="card-content">
               <p class="job-title">Software Development Engineer Intern</p>
@@ -99,12 +101,24 @@
 
         <!-- Different places -->
         <li><a href="about.html">About</a></li>
-        <li class="active white"><a href="#">Work</a></li>
+        <li class="active"><a href="#">Work</a></li>
         <li><a href="#!">Education</a></li>
         <li><a href="#!">Projects</a></li>
         <li><a href="#!">Contact</a></li>
         <li><a href="#!">Resume</a></li>
       </ul>
+
+      <!-- Modals -->
+      <!-- Amazon modal -->
+      <div id="amazon" class="modal">
+        <!-- Title Section -->
+        <div class="title-section">
+          <div class="title-text">
+            <!-- Section title -->
+            Work
+          </div>
+        </div>
+      </div>
 
       <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="js/materialize.min.js"></script>
